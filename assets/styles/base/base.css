@@ -1,4 +1,3 @@
-
 *,
 ::before,
 ::after {
@@ -11,7 +10,7 @@ html {
 
 body {
    font-size: 1.6rem;
-  font-family: "Roboto Slab", serif;
+   font-family: "Manrope", sans-serif;
 }
 
 a {
@@ -56,3 +55,21 @@ strong {
    font-weight: 600;
 }
 
+.container {
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0 30px;
+}
+
+.btn {
+   --height: 60px;
+   min-width: 107px;
+   height: var(--height);
+   line-height: var(--height);
+   border-radius: 4px;
+   background-color: #572af8;
+   font-weight: 600;
+   font-size: 1.6rem;
+   color: #fff;
+}
